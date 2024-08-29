@@ -1,27 +1,26 @@
-h1{
-    background-color: blanchedalmond;
+*{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
-a[href]{
-   background-color: black;
-   color:white;
+h1,h2,h3{
+    color:blueviolet; 
+    background-color: rgb(187, 230, 70);
 }
-form{
-    background-color: blanchedalmond;
+#first{
+    background-color:forestgreen; 
+    color:aliceblue;
 }
-p{
-    background-color: azure;
-}
-th{
-    color:pink;
-    background-color: black;
-}
-td{
+.odd{
+    background-color:aqua; 
     color:black;
-    background-color: pink;
 }
-li{
-    background-color: rgb(112, 118, 104);
+ul>li{
+    color: plum;
 }
-legend{
-    background-color: rgb(255, 0, 0);
+a[href = "https://google.com"]
+{
+ color: greenyellow  ;
+ font-size: larger;
 }
+.even{
+    background-color:yellow; 
+    color:black;}
